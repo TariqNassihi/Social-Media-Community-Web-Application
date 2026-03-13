@@ -1,0 +1,159 @@
+/* General page styling */
+.thread-detail-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the page */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+  }
+  
+  /* Header styling */
+  .thread-detail-page header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .thread-detail-page header h1 {
+    font-size: 2rem;
+    color: #004080; /* Dark blue for the thread title */
+  }
+  
+  /* Main content styling */
+  .thread-detail-page main {
+    margin-top: 20px;
+  }
+  
+  .thread-detail-page main h2 {
+    font-size: 1.5rem;
+    color: #333; /* Slightly dark gray */
+    margin-bottom: 20px;
+  }
+  
+  /* Post list styling */
+  .thread-detail-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .thread-detail-page li {
+    background: #ffffff; /* White background for each post */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for each post */
+  }
+  
+  .thread-detail-page li p {
+    margin: 0 0 10px 0; /* Space below post content */
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .thread-detail-page li small {
+    font-size: 0.875rem;
+    color: #666; /* Lighter gray for the author info */
+    display: block;
+    text-align: right;
+  }
+  
+  /* No posts message styling */
+  .thread-detail-page p {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 20px;
+  }
+
+  .post-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .create-post-button {
+    background-color: #ffd700;
+    color: #004080;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .create-post-button:hover {
+    background-color: #e5c100;
+  }
+
+  /* Style for the modal content */
+/* Modal backdrop (blurry background) */
+.modal {
+    position: fixed; /* Makes the modal fixed relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(8px); /* Adds the blur effect */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    z-index: 1000; /* Ensures the modal appears above other elements */
+  }
+  
+  /* Modal content (the actual form container) */
+  .modal-content {
+    background: white; /* White background for the modal */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Limits the width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow */
+    z-index: 1001; /* Ensures it stays above the background */
+    text-align: center;
+  }
+  
+  /* Modal actions (buttons container) */
+  .modal-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adds spacing between buttons */
+  }
+  
+  /* Buttons inside the modal */
+  .modal-actions button {
+    flex: 1; /* Makes buttons the same width */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Primary button (submit) */
+  .modal-actions button[type="submit"] {
+    background-color: #004080;
+    color: white;
+  }
+  
+  .modal-actions button[type="submit"]:hover {
+    background-color: #003366;
+  }
+  
+  /* Secondary button (cancel) */
+  .modal-actions button[type="button"] {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .modal-actions button[type="button"]:hover {
+    background-color: #bbb;
+  }
+  
+  
+  

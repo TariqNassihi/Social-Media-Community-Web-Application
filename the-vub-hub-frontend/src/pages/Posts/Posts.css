@@ -1,0 +1,36 @@
+/* Styling for the card header */
+.card-header {
+  background-color: #f8f9fa; /* Light background for the header */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Add padding inside the header */
+  border-bottom: 1px solid #ddd; /* bottom border */
+}
+
+/* Styling for images in the card header */
+.card-header img {
+  object-fit: cover; /* Ensure the image covers its container */
+  border-radius: 50%; /* Make the image circular */
+}
+
+/* Styling for images in the card footer */
+.card-footer img {
+  width: 100%; /* Make the image span the full width */
+  height: auto; /* Maintain the aspect ratio */
+  border-top: 1px solid #ddd; /* Add a top border */
+  padding-top: 10px; /* Add padding above the image */
+}
+
+/* Styling for the "read more" link */
+.read-more {
+  margin-left: 15px; /* Add left margin for spacing */
+}
+
+/* Styling for badges */
+.badge {
+  display: inline-block; /* Ensure the badge is inline-block */
+  max-width: fit-content; /* Adjust width to fit content */
+  padding: 0.2rem 0.5rem; /* Add padding inside the badge */
+  font-size: 0.8rem; /* Set font size */
+  border-radius: 0.25rem; /* Add rounded corners */
+}

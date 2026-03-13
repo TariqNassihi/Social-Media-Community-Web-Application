@@ -1,0 +1,58 @@
+/* Navbar styling */
+.navbar {
+  background-color: #34495e !important; /* Dark blue background color */
+  z-index: 100; /* Ensures the navbar appears above other elements */
+}
+
+
+/* Website name styling */
+.site-name {
+  font-size: 2rem !important;  /* Increases the font size of the site name */
+  font-weight: bold !important; /* Makes the text bold */
+  color: #ffffff !important; /* White text color */
+}
+
+
+
+
+/* dropdown menu styling */
+.custom-dropdown {
+  position: absolute; /* Positions the dropdown relative to the parent element */
+  right: 0; /* Aligns the dropdown to the right */
+  background-color: white; 
+  border-radius: 8px; /* Rounds the corners of the dropdown */
+  list-style: none; /* Removes default list styling */
+  width: 200px; /* Sets a fixed width for the dropdown */
+  display: flex; /* Makes the dropdown content flexible */
+  flex-direction: column; /* Stacks items vertically */
+}
+
+
+/* Dropdown list items */
+.custom-dropdown li {
+  padding: 10px 15px; /* Adds padding inside each list item */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+
+
+/* Avatar styling */
+.avatar {
+  width: 40px; /* Sets the avatar width */
+  height: 40px; /* Sets the avatar height */
+  border-radius: 50%; /* Makes the avatar circular */
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+/* Navbar item link styling */
+.nav-item .nav-link {
+  color: #000; /* Default black text color */
+  padding: 5px 10px; /* Adds padding inside the link */
+  border-radius: 5px; /* Rounds the corners of the link */
+}
+
+/* Hover effect for navbar item links */
+.nav-item .nav-link:hover {
+  color: #fff; /* Changes text color to white on hover */
+  background-color: #343a40; /* Adds a dark gray background color on hover */
+}

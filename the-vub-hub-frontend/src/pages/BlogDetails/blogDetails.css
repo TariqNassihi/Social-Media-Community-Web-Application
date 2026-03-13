@@ -1,0 +1,446 @@
+/* General container */
+.post-detail-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Post title */
+.post-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Post content */
+.post-content {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Post date */
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* Like/Dislike buttons */
+.post-reactions {
+  margin-bottom: 20px;
+}
+
+.like-button,
+.dislike-button {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.like-button:hover {
+  background: #c8e6c9;
+}
+
+.dislike-button:hover {
+  background: #ffcdd2;
+}
+
+/* Comments Section */
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-item {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-content {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Add Comment */
+.add-comment {
+  margin-top: 20px;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.add-comment-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-comment-button:hover {
+  background: #0056b3;
+}
+
+.delete-comment-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.delete-comment-button:hover {
+  background-color: #ff1a1a;
+}
+  
+/* User Info Section */
+.post-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-body {
+  display: flex;
+  gap: 20px;
+}
+
+.content-section {
+  flex: 2;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.post-reactions {
+  display: flex;
+  gap: 10px;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.author-profile-pic-comment {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-button,
+.create-thread-button,
+.add-comment-button {
+  background-color: #ffd700;
+  color: #004080;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-comment-button {
+  margin-right: auto; /* Align to the left */
+}
+
+.post-action-buttons .delete-button {
+  margin-left: auto; /* Align delete/edit buttons to the right */
+}
+
+
+
+.author-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.author-profile-pic-comment {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.create-thread-button {
+  background-color: #ffd700;
+  color: #004080;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.create-thread-button:hover {
+  background-color: #e5c100;
+}
+
+.delete-button {
+  background-color: #ffd700;
+  color: #004080;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+
+/* Modal Overlay */
+.edit-post-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures it is above other elements */
+}
+
+/* Modal Content */
+.edit-post-modal form {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Fields */
+.edit-post-modal input,
+.edit-post-modal textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.edit-post-modal input:focus,
+.edit-post-modal textarea:focus {
+  outline: none;
+  border-color: #004080; /* Focus color */
+}
+
+/* Buttons */
+.edit-post-modal button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-post-modal button[type="submit"] {
+  background-color: #004080; /* Save Changes button color */
+  color: #fff;
+}
+
+.edit-post-modal button[type="submit"]:hover {
+  background-color: #003060;
+}
+
+.edit-post-modal button[type="button"] {
+  background-color: #ddd; /* Cancel button color */
+  color: #333;
+}
+
+.edit-post-modal button[type="button"]:hover {
+  background-color: #bbb;
+}
+
+.social-share-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-icon.facebook {
+  background-color: #3b5998;
+}
+
+.social-icon.twitter {
+  background-color: #1da1f2;
+}
+
+.social-icon.linkedin {
+  background-color: #0077b5;
+}
+
+.social-icon.whatsapp {
+  background-color: #25d366;
+}
+
+.social-icon.email {
+  background-color: #555;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.comment-reactions {
+  display: flex;
+  gap: 10px; /* Space between the buttons */
+  align-items: center; /* Align items vertically */
+  margin-top: 5px; /* Space above the reaction buttons */
+}
+
+.comment-reactions button {
+  background-color: #f5f5f5; /* Light grey background */
+  border: 1px solid #ccc; /* Subtle border */
+  color: #333; /* Text color */
+  padding: 5px 10px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  display: flex; /* For aligning icon and text */
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+  font-size: 14px; /* Button font size */
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.comment-reactions button:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+  border-color: #999; /* Darker border on hover */
+}
+
+.comment-reactions button:active {
+  background-color: #d6d6d6; /* Even darker background when clicked */
+  border-color: #666; /* Darker border when clicked */
+}
+
+.comment-reactions button .reaction-icon {
+  font-size: 16px; /* Slightly larger icon size */
+}
+
+.comment-reactions span {
+  font-size: 14px; /* Font size for reaction count */
+  color: #555; /* Subtle grey color for the count */
+}

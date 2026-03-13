@@ -1,0 +1,15 @@
+
+/* styling for custom map markers */
+.custom-marker {
+  width: 40px; /* Set the width of the marker */
+  height: 40px; /* Set the height of the marker */
+  border-radius: 50%; /* Make the marker circular */
+  object-fit: cover; /* Ensure the image fits the marker size */
+  border: 2px solid white; /* Add a white border around the marker */
+}
+
+/* CSS styling for the map container */
+.map-container {
+  height: 500px; /* Set the height of the map */
+  width: 100%; /* Make the map take up the full width of its container */
+}

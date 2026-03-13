@@ -1,0 +1,18 @@
+
+
+/* Footer  styling */
+.footer-container {
+    margin-inline: 1.5rem; /* Adds horizontal margin on both sides */
+    margin-top: 2rem; /* Adds vertical margin at the top of the footer */
+    border-top: 1px solid #000; /* Adds a solid black line at the top of the footer */
+    padding: 2rem 0; /* Adds vertical padding inside the footer */
+    display: flex; /* Enables flexbox layoutt */
+    justify-content: space-between; /* Distributes items evenly with space between them */
+    align-items: center; /* Vertically centers the items */
+}
+
+/* Styling for the footer logo link */
+.logo-f {
+    text-decoration: none; /* Removes the underline from the link text */
+    color: #34495e; /* Sets the text color to dark blue */
+}

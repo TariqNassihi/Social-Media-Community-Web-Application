@@ -1,0 +1,58 @@
+.profile-container {
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-banner {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url("https://fastly.picsum.photos/id/77/1631/1102.jpg?hmac=sg0ArFCRjP1wlUg8vszg5RFfGiXZJkWEtqLLCRraeBw");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img {
+    background-color: transparent;
+}
+
+.profile-avatar {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
+
+.follow-button {
+    position: absolute;
+    top: 260px;
+    right: 30px;
+    padding: .5rem 1rem;
+    color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
+
+.profile-pic img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px dotted #ddd;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
